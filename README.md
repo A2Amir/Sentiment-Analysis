@@ -3,13 +3,25 @@ Sentiment Analysis with logistic Regression and Fully Connected layer and LSTM (
 
 I am going to looking at how to apply Logistic Regression to the task of sentiment analysis. Sentiment analysis can be thought of as the exercise of taking a sentence, paragraph, document, or any piece of natural language, and determining whether that text is emotional tone is positive or negative. 
 
+Data Preprocessing
+
+Some steps are necessary to prepare our dataset
+
+         1-Tokenizing, it is when you convert words into numbers-->[“The”, “cat”, “went”, “to”, “the”, “zoo”, “.”] it would be              tokenized to [1, 2, 3, 4, 1, 5, 6]. it  is done by Keeras
+
+        2-The next step is to make all of the reviews the same length.------> max_review_length = 70
+
+        3-Convert all labels into One Hot Encoding 
+
+        3-For Logistic Regression must all comment be transformed in tensor(Array).
+
 
 Logistic Regression model
 We now define our operations in order to properly run the Logistic Regression. Logistic regression is typically thought of as a single equation:
 
 
               ŷ=sigmoid(WX+b)
-              ŷ=sigmoid(WX+b)
+
               
 However, for the sake of clarity, we can have it broken into its three main components: 
 
