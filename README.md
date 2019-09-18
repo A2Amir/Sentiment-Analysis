@@ -45,6 +45,8 @@ Sentiment Analysis Datasets:
 <p align="center">
 
 Sentiment Lexica:
+
+
 there are a lot of sentiment lexica that can are very useful resources which can be used for problems related to the sentiment analysis:
 
 <p align="center">
