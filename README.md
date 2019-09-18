@@ -41,5 +41,5 @@ In this section, I will predict the sentiment of movie reviews as either positiv
 Sentiment Analysis Datasets:
 
 <p align="center">
-<img src="./img/1.jpg" alt="Sentiment Analysis Datasets " />
+<img src="./img/1.JPG" alt="Sentiment Analysis Datasets " />
 <p align="center">
