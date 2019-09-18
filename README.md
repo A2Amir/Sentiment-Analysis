@@ -38,3 +38,8 @@ In this section, I will predict the sentiment of movie reviews as either positiv
 
               1-Fully connected Layers
               2-LSTM layers with Word Embeding.
+Sentiment Analysis Datasets:
+
+<p align="center">
+<img src="./img/1.jpg" alt="Sentiment Analysis Datasets " />
+<p align="center">
