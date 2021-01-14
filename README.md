@@ -8,30 +8,30 @@ Sentiment Analysis is probably one of the most popular uses of natural language 
  
 * as a quantitative measure for book and movie reviews, 
  
-## 2. [Sentiment Analysis](https://github.com/A2Amir/Sentiment-Analysis/blob/master/Sentiment%20Analysis.ipynb) with Naive Bayes classifier GradientBoostingClassifier and LSTM (Tensorflow 2)
+## 2. Sentiment Analysis with Naive Bayes Gradient Boosting Classifier and LSTM (Tensorflow 2)
 
 The notebooks below will train two macchine learning and LSTM deep leaning classifiers and movie reviews in the Internet Movie Database or IMDB dataset. The dataset I are going to use is very popular among researchers in Natural Language Processing, usually referred to as [the IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/). It consists of movie reviews from the website imdb.com, each labeled as either 'positive', if the reviewer enjoyed the film, or 'negative' otherwise.
  
-* [The first notebook]() will do it with a regular supervised learning classifier by  looking at a review as an unorganized collection of words. 
+* [The first notebook](https://github.com/A2Amir/Sentiment-Analysis/blob/master/sentiment_analysis.ipynb) will do it with a regular supervised learning classifier by  looking at a review as an unorganized collection of words. 
  
-* [The second notebook]() will exploit the sequentiality of the sentences and will train a more accurate classifier using a recurring neural network. 
+* [The second notebook](https://github.com/A2Amir/Sentiment-Analysis/blob/master/lstm_sentiment_analysis.ipynb) will exploit the sequentiality of the sentences and will train a more accurate classifier using a recurring neural network. 
 
 
-## 3. [Sentiment Analysis](https://github.com/A2Amir/Sentiment-Analysis/blob/master/Sentiment%20Analysis.ipynb) with logistic Regression and Fully Connected layer and LSTM (Tensorflow 1)
+## 3. Sentiment Analysis with logistic Regression and Fully Connected layer and LSTM (Tensorflow 1)
 
 
-I am going to looking at how to apply Logistic Regression to the task of sentiment analysis. Sentiment analysis can be thought of as the exercise of taking a sentence, paragraph, document, or any piece of natural language, and determining whether that text is emotional tone is positive or negative. 
+In this  [notebook](https://github.com/A2Amir/Sentiment-Analysis/blob/master/Sentiment%20Analysis.ipynb), I am going to looking at how to apply Logistic Regression to the task of sentiment analysis. Sentiment analysis can be thought of as the exercise of taking a sentence, paragraph, document, or any piece of natural language, and determining whether that text is emotional tone is positive or negative. 
 
 #### Data Preprocessing
 Some steps are necessary to prepare our dataset
 
-         1-Tokenizing, it is when you convert words into numbers-->[“The”, “cat”, “went”, “to”, “the”, “zoo”, “.”] it would be              tokenized to [1, 2, 3, 4, 1, 5, 6]. it  is done by Keeras
+         1- Tokenizing, it is when you convert words into numbers-->[“The”, “cat”, “went”, “to”, “the”, “zoo”, “.”] it would be              tokenized to [1, 2, 3, 4, 1, 5, 6]. it  is done by Keeras
 
-        2-The next step is to make all of the reviews the same length.------> max_review_length = 70
+        2- The next step is to make all of the reviews the same length.------> max_review_length = 70
 
-        3-Convert all labels into One Hot Encoding 
+        3- Convert all labels into One Hot Encoding 
 
-        3-For Logistic Regression must all comment be transformed in tensor(Array).
+        3- For Logistic Regression must all comment be transformed in tensor(Array).
 
 
 #### Logistic Regression model
