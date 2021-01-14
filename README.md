@@ -22,8 +22,7 @@ The notebooks below will train two macchine learning and LSTM deep leaning class
 
 I am going to looking at how to apply Logistic Regression to the task of sentiment analysis. Sentiment analysis can be thought of as the exercise of taking a sentence, paragraph, document, or any piece of natural language, and determining whether that text is emotional tone is positive or negative. 
 
-Data Preprocessing
-
+#### Data Preprocessing
 Some steps are necessary to prepare our dataset
 
          1-Tokenizing, it is when you convert words into numbers-->[“The”, “cat”, “went”, “to”, “the”, “zoo”, “.”] it would be              tokenized to [1, 2, 3, 4, 1, 5, 6]. it  is done by Keeras
@@ -35,7 +34,7 @@ Some steps are necessary to prepare our dataset
         3-For Logistic Regression must all comment be transformed in tensor(Array).
 
 
-Logistic Regression model
+#### Logistic Regression model
 We now define our operations in order to properly run the Logistic Regression. Logistic regression is typically thought of as a single equation:
 
 
@@ -50,8 +49,7 @@ However, for the sake of clarity, we can have it broken into its three main comp
               and finally the application of a sigmoid function. 
 
 
-Deep Learning Approches
-
+#### Deep Learning Approches
 In this section, I will predict the sentiment of movie reviews as either positive or negative in Python using the Keras deep learning library. 
 
 
@@ -63,9 +61,7 @@ In this section, I will predict the sentiment of movie reviews as either positiv
 <img src="./img/1.JPG" alt="Sentiment Analysis Datasets " />
 <p align="center">
 
-Sentiment Lexica:
-
-
+### Sentiment Lexica:
 there are a lot of sentiment lexica that can are very useful resources which can be used for problems related to the sentiment analysis:
 
 <p align="center">
