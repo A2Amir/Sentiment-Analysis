@@ -25,7 +25,7 @@ In this  [notebook](https://github.com/A2Amir/Sentiment-Analysis/blob/master/Sen
 #### Data Preprocessing
 Some steps are necessary to prepare our dataset
 
-         1- Tokenizing, it is when you convert words into numbers-->[“The”, “cat”, “went”, “to”, “the”, “zoo”, “.”] it would be              tokenized to [1, 2, 3, 4, 1, 5, 6]. it  is done by Keeras
+        1- Tokenizing, it is when you convert words into numbers-->[“The”, “cat”, “went”, “to”, “the”, “zoo”, “.”] it would be              tokenized to [1, 2, 3, 4, 1, 5, 6]. it  is done by Keeras
 
         2- The next step is to make all of the reviews the same length.------> max_review_length = 70
 
