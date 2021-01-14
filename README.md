@@ -9,6 +9,7 @@ Sentiment Analysis is probably one of the most popular uses of natural language 
  
  * as a quantitative measure for book and movie reviews.
  </b>
+ 
 ## 2. Sentiment Analysis with Naive Bayes Gradient Boosting Classifier and LSTM (Tensorflow 2)
 
 The notebooks below will train two macchine learning and LSTM deep leaning classifiers and movie reviews in the Internet Movie Database or IMDB dataset. The dataset I are going to use is very popular among researchers in Natural Language Processing, usually referred to as [the IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/). It consists of movie reviews from the website imdb.com, each labeled as either 'positive', if the reviewer enjoyed the film, or 'negative' otherwise.
