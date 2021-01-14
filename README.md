@@ -10,11 +10,11 @@ Sentiment Analysis is probably one of the most popular uses of natural language 
  * as a quantitative measure for book and movie reviews.
  </b>
  
-## 2. Sentiment Analysis with Naive Bayes Gradient Boosting Classifier and LSTM (Tensorflow 2)
+## 2. Sentiment Analysis with Naive Bayes, Gradient Boosting Classifier and LSTM (Tensorflow 2)
 
-The notebooks below will train two macchine learning and LSTM deep leaning classifiers and movie reviews in the Internet Movie Database or IMDB dataset. The dataset I are going to use is very popular among researchers in Natural Language Processing, usually referred to as [the IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/). It consists of movie reviews from the website imdb.com, each labeled as either 'positive', if the reviewer enjoyed the film, or 'negative' otherwise.
+The notebooks below will train two macchine learning and LSTM deep leaning classifiers by using  movie reviews in the Internet Movie Database or IMDB dataset. The dataset I am going to use is very popular among researchers in Natural Language Processing, usually referred to as [the IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/). It consists of movie reviews from the website imdb.com, each labeled as either 'positive', if the reviewer enjoyed the film, or 'negative' otherwise.
  
-* [The first notebook](https://github.com/A2Amir/Sentiment-Analysis/blob/master/sentiment_analysis.ipynb) will do it with a regular supervised learning classifier by  looking at a review as an unorganized collection of words. to use this notebook, first download [the IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/) then extrac it to the folder named data/imdb-reviews
+* [The first notebook](https://github.com/A2Amir/Sentiment-Analysis/blob/master/sentiment_analysis.ipynb) will do it with two regular supervised learning classifiers(Naive Bayes, Gradient Boosting Classifier) by  looking at a review as an unorganized collection of words. to use this notebook, first download [the IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/) then extrac it to the folder named data/imdb-reviews
  
 * [The second notebook](https://github.com/A2Amir/Sentiment-Analysis/blob/master/lstm_sentiment_analysis.ipynb) will exploit the sequentiality of the sentences and will train a more accurate classifier using a recurring neural network. 
 
