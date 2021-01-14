@@ -1,4 +1,23 @@
-#### [Sentiment Analysis](https://github.com/A2Amir/Sentiment-Analysis/blob/master/Sentiment%20Analysis.ipynb) with logistic Regression and Fully Connected layer and LSTM (Tensorflow 1)
+## 1. Introduction
+
+Sentiment Analysis is probably one of the most popular uses of natural language processing these days. Sentiment Analysis has become an important tool for many purposes. For example: 
+
+* understanding customer sentiment around the company for making investment decisions, 
+ 
+* getting a feedback signal for social media and advertising campaigns, 
+ 
+* as a quantitative measure for book and movie reviews, 
+ 
+## [Sentiment Analysis](https://github.com/A2Amir/Sentiment-Analysis/blob/master/Sentiment%20Analysis.ipynb) with Naive Bayes classifier GradientBoostingClassifier and LSTM (Tensorflow 2)
+
+The notebooks below will train two macchine learning and LSTM deep leaning classifiers and movie reviews in the Internet Movie Database or IMDB dataset. The dataset I are going to use is very popular among researchers in Natural Language Processing, usually referred to as [the IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/). It consists of movie reviews from the website imdb.com, each labeled as either 'positive', if the reviewer enjoyed the film, or 'negative' otherwise.
+ 
+* [The first notebook]() will do it with a regular supervised learning classifier by  looking at a review as an unorganized collection of words. 
+ 
+* [The second notebook]() will exploit the sequentiality of the sentences and will train a more accurate classifier using a recurring neural network. 
+
+
+## [Sentiment Analysis](https://github.com/A2Amir/Sentiment-Analysis/blob/master/Sentiment%20Analysis.ipynb) with logistic Regression and Fully Connected layer and LSTM (Tensorflow 1)
 
 
 I am going to looking at how to apply Logistic Regression to the task of sentiment analysis. Sentiment analysis can be thought of as the exercise of taking a sentence, paragraph, document, or any piece of natural language, and determining whether that text is emotional tone is positive or negative. 
