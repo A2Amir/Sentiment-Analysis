@@ -1,4 +1,4 @@
-# [Sentiment Analysis](https://github.com/A2Amir/Sentiment-Analysis/blob/master/Sentiment%20Analysis.ipynb) with logistic Regression and Fully Connected layer and LSTM (Tensorflow 1)
+#### [Sentiment Analysis](https://github.com/A2Amir/Sentiment-Analysis/blob/master/Sentiment%20Analysis.ipynb) with logistic Regression and Fully Connected layer and LSTM (Tensorflow 1)
 
 
 I am going to looking at how to apply Logistic Regression to the task of sentiment analysis. Sentiment analysis can be thought of as the exercise of taking a sentence, paragraph, document, or any piece of natural language, and determining whether that text is emotional tone is positive or negative. 
