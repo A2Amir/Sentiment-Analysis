@@ -14,11 +14,13 @@ Sentiment Analysis is probably one of the most popular uses of natural language 
 
 The notebooks below will train two macchine learning and LSTM deep leaning classifiers and movie reviews in the Internet Movie Database or IMDB dataset. The dataset I are going to use is very popular among researchers in Natural Language Processing, usually referred to as [the IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/). It consists of movie reviews from the website imdb.com, each labeled as either 'positive', if the reviewer enjoyed the film, or 'negative' otherwise.
  
-* [The first notebook](https://github.com/A2Amir/Sentiment-Analysis/blob/master/sentiment_analysis.ipynb) will do it with a regular supervised learning classifier by  looking at a review as an unorganized collection of words. 
+* [The first notebook](https://github.com/A2Amir/Sentiment-Analysis/blob/master/sentiment_analysis.ipynb) will do it with a regular supervised learning classifier by  looking at a review as an unorganized collection of words. to use this notebook, first download [the IMDb dataset](http://ai.stanford.edu/~amaas/data/sentiment/) then extrac it to the folder named data/imdb-reviews
  
 * [The second notebook](https://github.com/A2Amir/Sentiment-Analysis/blob/master/lstm_sentiment_analysis.ipynb) will exploit the sequentiality of the sentences and will train a more accurate classifier using a recurring neural network. 
 
 
+
+##### to use 
 ## 3. Sentiment Analysis with logistic Regression and Fully Connected layer and LSTM (Tensorflow 1)
 
 
